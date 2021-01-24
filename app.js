@@ -50,7 +50,7 @@ sort.addEventListener("click", function () {
             arr[i] = arr[min];
             arr[min] = tmp;
         }
-        juanito();
+        imprimir();
 
     }
     return arr;
@@ -59,7 +59,7 @@ sort.addEventListener("click", function () {
 });
 
 
-const juanito = () => {
+const imprimir = () => {
     let contenedor = document.createElement("DIV");
     /////////IMPRIMIR CARTAS ////
     for (let j = 0; j < arr.length; j++) {
